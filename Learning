@@ -9,3 +9,7 @@ just now i created a child branch, and modifying this file to differentiate mast
 Just now finished the child branch file to master branch file.
 
 I able to do it success fully without any conflicts.
+
+After merging successfully deleted the Child Branch.
+
+so current data is available in Master branch only, as of now no other brnaches are there.
