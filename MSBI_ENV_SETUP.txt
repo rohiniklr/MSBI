@@ -1,0 +1,22 @@
+Real-time seperate preperation
+
+In real-time multiple environments maintained.
+a) Development b) Testing  c) Production / Live
+
+Create three folder setups and database setups to work with MSBI classes [special SSIS]
+
+a) Create three folders in a Drive [C / D / F etc...]
+	DEV, TEST, PROD
+
+b) Create three databases 
+
+	SSMS--> Database Engine--> Connect-->
+	Databases-->right click-->new database--> Provide name: VINAYTECH_DEV_DB--> Click OK
+
+	VINAYTECH_DEV_DB
+	VINAYTECH_TEST_DB
+	VINAYTECH_PROD_DB
+
+c) Restore the VINAYTECH_DEV_DB FILE
+d) Go to envinronment databases--> right click--> tasks--> Import Data and follow the steps...
+    Ensure all databases  having same tables.
